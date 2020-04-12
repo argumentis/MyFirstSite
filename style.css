@@ -1,0 +1,891 @@
+* { 
+    margin:0; 
+    padding:0; 
+}
+
+ body { 
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align:center;
+} 
+
+.topBanner {
+    height: 760px;
+    background-image: url(img/topBanner1.png);
+}
+
+.leftBlock {
+    display: flex;
+    align-content: flex-start;
+    
+}
+
+#buttonsLeftBlock {
+    padding: 12px 16px 12px 16px;
+    margin-left: 10px;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: "MavenPro-Bold"; 
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+#buttonsLeftBlock a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.horizListLeft {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logoHeader {
+    margin-top: 19px;
+    margin-left: 23px;
+}
+
+.leftListHeader {
+    margin-top: 28px;
+    margin-left: 9px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul.horizListRight {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 38px;
+    margin-right: 5px;
+}
+
+ul.horizListRight li {
+    display: flex;
+}
+
+#rightListLi {
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif; 
+    color: #fff;
+    font-size: 12pt;
+    margin: 0px 24px;
+    height: 23px;
+}
+
+#rightListLi a {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
+
+.hambMenuRemove {
+    display: none;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#imgHambMenu {
+    padding-right: 9px;
+}
+
+.conteinerForHeaderText {
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headText {
+    margin-top: 138px;
+    font-size: 60pt;
+    font-family: "MavenPro-Black";
+    color: #8ae2e2;
+}
+
+.secondHeadText {
+    margin-top: 11px;
+    font-size: 40pt;
+    font-family: "MavenPro-Black";
+    color: #fff;
+}
+
+.paraghText {
+    margin-top: 35px;
+    font-size: 18pt;
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+}
+
+#bolderForParTxt {
+    font-family: "MavenPro-Bold";
+    color: #8ae2e2;
+}
+
+.redButton {
+    margin-top: 45px;
+    font-family: "MavenPro-Bold";
+    font-size: 13pt;
+    background-color: #ff5152;
+    border-radius: 6px;
+    padding: 26px 49px;
+}
+
+.redButton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.questionBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #eff7f7;
+}
+
+.quesText {
+    color: #294552;
+    font-family: "MavenPro-Medium"; 
+}
+
+#linktext {
+    font-family: "MavenPro-Bold";
+}
+
+#linktext a {
+    color: #8ce3e7;
+}
+
+.secondBanner {
+    height: 630px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.headBoldCategoryTxt {
+    font-family: "MavenPro-Black";
+    font-size: 24pt;
+    color: #082839;
+
+}
+
+#headTxtUp{
+    margin-top: 96px;  
+}
+
+.specialList{
+    margin-top: 67px;
+    padding: 0 25px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.specialListImg {
+    width: 162px;
+    height: 126px;
+}
+
+#massageTwoImg {
+    margin-top: 5.5px;
+}
+
+.specialList li {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialListHead {
+    height: 44px;
+    margin-top: 38px;
+    font-family: "MavenPro-Black"; 
+    font-size: 14pt;
+    color: #082839;
+}
+
+.specialListTxt {
+    margin-top: 11px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12pt;
+    color: #082839;
+}
+
+.thirdBanner {
+    height: 542px;
+    background-image: url(img/Banner2.png);
+}
+
+.fourthBanner{
+    height: 870px;
+    display: flex;
+    background-color: #6bcfce;
+}
+
+.leftBlockFourBann{
+    padding-left: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.headLeftBlockFourBann {
+    margin-top: 158px;
+    font-family: "MavenPro-Black"; 
+    color: #fff;
+    font-size: 62pt;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.buttonLeftBlockFourBann {
+margin-top: 68px;
+border: 2px solid #fff;
+font-family: "MavenPro-Bold";
+font-size: 13pt;
+border-radius: 6px;
+padding: 26px 49px;
+
+}   
+
+#bkgroundColorForBtn {
+    background-color: #6bcfce;
+}
+
+
+.buttonLeftBlockFourBann a {
+text-decoration: none;
+color: #fff;
+}
+
+.rightBlockFourBann {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}  
+
+.firstLayer {
+   margin-left: 130px;
+    margin-top: 93px;
+    display: flex;
+    z-index: 1;
+}
+
+.secondLayer {
+    display: flex;
+    z-index: 2;
+    margin-top: -45px;
+    margin-left: 10px;
+    
+}
+
+.thirdLayer {
+    display: flex;
+    z-index: 3;
+    margin-left: 130px;
+    margin-top: -45px;
+}
+
+.fourthLayer {
+    display: flex;
+    z-index: 4;
+    margin-top: -45px;
+    margin-left: 265px;
+}
+
+.headerSteps {
+    font-family: "MavenPro-Bold"; 
+    color: #fff;
+    font-size: 14pt;
+}
+
+.paraghSteps{
+    font-size: 12pt;
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.txtSteps {
+ margin-top: 20px;
+}
+
+.arrowSteps {
+    margin-top: 30px;
+}
+
+#txtStepsFirst {
+    width: 240px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#txtStepsSecond {
+    width: 240px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#txtStepsThird {
+    width: 240px;
+    text-align: left;
+    margin-left: 20px
+}
+
+#txtStepsFourth {
+    width: 240px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.fifthBanner {
+    height: 542px;
+    background-image: url(img/Banner5.png);
+}
+
+.sixthBanner {
+    height: 700px;
+}
+
+.massageImg {
+    background-image: url(img/comentBody.png);
+    width: 410px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    color: #082839;
+    font-size: 12pt;
+}
+
+#textIntoMass {
+    padding-top: 30px;
+}
+
+#name {
+    font-family: "MavenPro-Bold";
+    color: #082839; 
+}
+
+#status {
+    font-family: 'Maven Pro', sans-serif; 
+    color: #082839;
+}
+
+.iconNameBlock {
+    display: flex;
+    margin-top: 10px;
+}
+
+.nameAgeBlock {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.fullMassBlock {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.comentsStack {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 36px;
+}
+
+.seventhBanner {
+    height: 542px;
+    background-image: url(img/Banner7.png);
+}
+
+.eigthBanner {
+    height: 870px;
+    background-image: url(img/Banner8.png);
+    display: flex;
+}
+
+.headEightBann {
+    margin-top: 80px;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.listEigthBann {
+    padding: 0px 106px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.blockLi {
+    max-width: 470px;
+    margin-top: 24px;
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif; 
+}
+
+#lineImg {
+    margin-left: 10px;
+}
+
+.ninthBanner {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redButtonBotttom {
+    padding: 14px 19px;
+    margin-top: 36px; 
+}
+
+#headTxtBottom {
+    padding-top: 43px;
+}
+
+footer {
+    height: 290px;
+    background-color: #0b2b37;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinksBlock {
+    padding-top: 83px;
+    margin-left: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Lilinks {
+    display: flex;
+    align-items: center;
+
+}
+
+.linkTxt {
+    font-size: 16pt;
+    font-family: "MavenPro-Bold";
+    color: #fff;
+}
+
+.linkImg {
+    margin-left: 10px;
+}
+
+.coopInfo {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 10pt;
+    color: #a5abb0;
+    margin-top: 8px;
+}
+
+.footerInfoLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columLinksBlock {
+    display: flex;
+    flex-direction: column;
+    margin-right: 43px;
+    margin-top: 84px;
+}
+
+.hederLinksBlock {
+    font-size: 16pt;
+    font-family: "MavenPro-Bold";
+    color: #fff;
+    padding-bottom: 34px;
+}
+
+.infoLink a {
+    font-family: 'Maven Pro', sans-serif;
+    color: #a5abb0;
+    text-decoration: none;
+}
+
+.infoLink {
+    padding-bottom: 11px;
+}
+
+@media (max-width: 1435px) {
+    .fourthBanner{
+        justify-content: space-around;
+    }
+    .leftBlockFourBann{
+        padding-left: 13px;
+    }
+    
+    .headLeftBlockFourBann {
+        font-size: 52pt;
+    }
+     
+        
+    .rightBlockFourBann {
+        margin-left: 10px;
+    }  
+}
+
+@media (max-width: 1340px) {
+    .fourthBanner{
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .rightBlockFourBann{
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftBlockFourBann{
+        padding-left: 30px;
+    }
+    .headLeftBlockFourBann {
+        font-size: 42pt;
+        margin-top: 150px;
+    }
+    .arrowSteps{
+        display: none;
+    }
+    .firstLayer {
+        margin-left: 0px;
+         margin-top: 0px;
+         display: flex;
+         z-index: 1;
+     }
+     
+     .secondLayer {
+         display: flex;
+         z-index: 1;
+         margin-top: 0px;
+         margin-left: 0px;
+         
+     }
+     
+     .thirdLayer {
+         display: flex;
+         z-index: 1;
+         margin-left: 0px;
+         margin-top: 0px;
+     }
+     
+     .fourthLayer {
+         display: flex;
+         z-index: 1;
+         margin-top: 0px;
+         margin-left: 0px;
+     }
+     #txtStepsFirst {
+        text-align: right;
+        margin-left: 0px;
+    }
+    
+    #txtStepsSecond {
+        text-align: right;
+        margin-right: 0px;
+    }
+    
+    #txtStepsThird {
+        text-align: right;
+        margin-left: 0px;
+    }
+    
+    #txtStepsFourth {
+        width: 240px;
+        text-align: right;
+        margin-right: 0px;
+    }
+    .elipsImg {
+        order:1;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .txtSteps {
+        margin-top: 30px;
+       }
+    .comentsStack {
+        justify-content: space-around;
+        padding: 0px 36px;
+    }
+    .sixthBanner {
+        height: 950px;
+    }
+    .specialListTxt {
+        margin-top: 30px;
+    }
+    .buttonLeftBlockFourBann {
+        margin-top: 68px;
+        font-size: 13pt;
+        border-radius: 6px;
+        padding: 16px 20px;
+    }
+    .listEigthBann {
+        margin-top: 55px;
+    }
+    .fullMassBlock {
+        padding: 0px 8px;
+    }
+    .topBanner {
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+    }
+    .seventhBanner {
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+    }
+    .fifthBanner {
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+    }
+    .thirdBanner {
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+    }
+}
+
+@media (max-width:1150px) {
+    .topBanner {
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+    }
+    .seventhBanner {
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+    }
+    .fifthBanner {
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+    }
+    .thirdBanner {
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+    }
+}
+
+@media (max-width:930px) {
+    .topBanner {
+        background-image: url();
+        background-color: #294552;
+    }
+    .rightBlock {
+        display: none;
+    }
+    .hambMenuRemove {
+        display: block;
+    }
+    .leftListHeader {
+        display: none;
+    }
+    #imgHambMenu {
+        height: 33px;
+        width: 40px;
+    }
+    .footerInfoLinks {
+        display: none;
+    }
+    footer {
+        align-items: center;
+        justify-content: center;
+        height: 160px;
+    }
+    .footerLinksBlock{
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .specialList {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .specialList li {
+        padding: 20px 20px;
+    }
+    .thirdBanner {
+        display: none;
+    }
+    .secondBanner {
+        height: 890px;
+    }
+    .massageImg {
+        background-image: url();
+        background-color: #eff7f7;
+        width: 250px;
+        height: 180px;
+    }
+    .comentsStack {
+        margin-top: 0px;
+        padding: 0px 0px;
+    }
+    .specialListTxt {
+        margin-top: 10px;
+    }
+    .fullMassBlock {
+        padding: 0px 10px;
+    }
+    .sixthBanner {
+        height: 730px;
+    }
+    #headTxtUp {
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+    .fifthBanner {
+        display: none;
+    }
+    .seventhBanner {
+        display: none;
+    }
+    .listEigthBann {
+        padding: 0px 70px;
+    }
+}
+
+@media (max-width : 810px) {
+    .fullMassBlock {
+        margin-top: 25px;
+    }
+    .sixthBanner {
+        height: 930px;
+    }
+    .eigthBanner {
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .listEigthBann {
+        order: 2 ;
+        margin-top: 0px;
+    }
+    .headEightBann {
+        align-items: center;
+        margin-top: 0px;
+        padding: 30px 0px 0px 0px;
+        justify-content: flex-start;
+    }
+    .headLeftBlockFourBann {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 28pt;
+    }
+    .buttonLeftBlockFourBann {
+        margin-top: 15px;
+        font-size: 11pt;
+        padding: 10px 14px;
+    }
+    .fourthBanner {
+        height: 830px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .leftBlockFourBann {
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .rightBlockFourBann {
+        padding-top: 15px;
+    }
+    .headText {
+        font-size: 43pt;
+    }
+    .secondHeadText {
+        font-size: 30pt;
+    }
+    .paraghText {
+        font-size: 14pt;
+    }
+    .redButton {
+        font-size: 11pt;
+        padding: 18px 28px;
+    }
+}
+
+@media(max-width: 690px) {
+    .secondBanner {
+        height: 1400px;
+    }
+    .specialList {
+        margin-top: 20px
+    }
+    .fullMassBlock {
+        padding: 0px 24px;
+    }
+}
+
+@media(max-width: 595px){
+    .sixthBanner {
+        height: 1750px;
+    }
+    .headBoldCategoryTxt {
+        font-size: 18pt;
+    }
+    .blockLi {
+        font-size: 10pt;
+    }
+    #imgHambMenu {
+        padding-right: 0px;
+    }
+    #logoImg {
+        width: 230px;
+    }
+    .eigthBanner {
+        justify-content: center;
+        height: 980px;
+    }
+    .ninthBanner {
+        height: 260px;
+    }
+    .headEightBann {
+        padding: 0;
+    }
+    .specialList li {
+        padding: 10px 0px;
+    }
+    .secondBanner {
+        height: 1330px;
+    }
+}
+@font-face {
+    font-family: "MavenPro-Black"; 
+    src: url("fonts/MavenPro-Black.ttf") format("truetype"); 
+} 
+
+@font-face {
+    font-family: "MavenPro-Bold"; 
+    src: url("fonts/MavenPro-Bold.ttf") format("truetype"); 
+} 
+
+@font-face {
+    font-family: "MavenPro-Regular"; 
+    src: url("fonts/MavenPro-Regular.ttf") format("truetype"); 
+} 
+
+@font-face {
+    font-family: "MavenPro-Medium"; 
+    src: url("fonts/MavenPro-Medium.ttf") format("truetype"); 
+} 
