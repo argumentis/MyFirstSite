@@ -21,13 +21,13 @@
 }
 
 #buttonsLeftBlock {
-    padding: 12px 16px 12px 16px;
+    padding: 10px 15px 10px 15px;
     margin-left: 10px;
     font-size: 11pt;
     font-weight: bold;
     font-family: "MavenPro-Bold"; 
     border: 2px solid #fff;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 #buttonsLeftBlock a {
@@ -44,13 +44,13 @@ ul.horizListLeft {
 }
 
 .logoHeader {
-    margin-top: 19px;
-    margin-left: 23px;
+    margin-top: 20px;
+    margin-left: 25px;
 }
 
 .leftListHeader {
-    margin-top: 28px;
-    margin-left: 9px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .nav-bar{
@@ -65,7 +65,7 @@ ul.horizListRight {
     flex-direction: row;
     margin: 0px;
     padding: 0px;
-    margin-top: 38px;
+    margin-top: 40px;
     margin-right: 5px;
 }
 
@@ -78,14 +78,15 @@ ul.horizListRight li {
     font-family: 'Maven Pro', sans-serif; 
     color: #fff;
     font-size: 12pt;
-    margin: 0px 24px;
-    height: 23px;
+    margin: 0px 25px;
+    height: 25px;
 }
 
 #rightListLi a {
     text-decoration: none;
     color: #fff;
     align-items: center;
+    cursor: pointer;
 }
 
 .hambMenuRemove {
@@ -94,26 +95,56 @@ ul.horizListRight li {
     margin-top: 30px;
 }
 
+.dropdown-child {
+    position: absolute;
+    display: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold; 
+    width: 90px;
+    right: 5px;
+}
+
+#liTogMenu {
+    margin-top: 10px;
+}
+
+.dropdown-child a {
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+}
+
+.dropdown-childOpened {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#liTogMenu:hover a {
+    color: #000;
+}
+
 #imgHambMenu {
-    padding-right: 9px;
+    padding-right: 10px;
+    cursor: pointer;
 }
 
 .conteinerForHeaderText {
-    height: 672px;
+    height: 670px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .headText {
-    margin-top: 138px;
+    margin-top: 140px;
     font-size: 60pt;
     font-family: "MavenPro-Black";
     color: #8ae2e2;
 }
 
 .secondHeadText {
-    margin-top: 11px;
+    margin-top: 10px;
     font-size: 40pt;
     font-family: "MavenPro-Black";
     color: #fff;
@@ -136,8 +167,8 @@ ul.horizListRight li {
     font-family: "MavenPro-Bold";
     font-size: 13pt;
     background-color: #ff5152;
-    border-radius: 6px;
-    padding: 26px 49px;
+    border-radius: 5px;
+    padding: 25px 50px;
 }
 
 .redButton a {
@@ -181,11 +212,11 @@ ul.horizListRight li {
 }
 
 #headTxtUp{
-    margin-top: 96px;  
+    margin-top: 95px;  
 }
 
 .specialList{
-    margin-top: 67px;
+    margin-top: 65px;
     padding: 0 25px;
     display: flex;
     list-style-type: none;
@@ -193,8 +224,8 @@ ul.horizListRight li {
 }
 
 .specialListImg {
-    width: 162px;
-    height: 126px;
+    width: 160px;
+    height: 125px;
 }
 
 #massageTwoImg {
@@ -210,22 +241,22 @@ ul.horizListRight li {
 }
 
 .specialListHead {
-    height: 44px;
-    margin-top: 38px;
+    height: 45px;
+    margin-top: 40px;
     font-family: "MavenPro-Black"; 
     font-size: 14pt;
     color: #082839;
 }
 
 .specialListTxt {
-    margin-top: 11px;
+    margin-top: 10px;
     font-family: 'Maven Pro', sans-serif;
     font-size: 12pt;
     color: #082839;
 }
 
 .thirdBanner {
-    height: 542px;
+    height: 540px;
     background-image: url(img/Banner2.png);
 }
 
@@ -236,14 +267,14 @@ ul.horizListRight li {
 }
 
 .leftBlockFourBann{
-    padding-left: 63px;
+    padding-left: 65px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .headLeftBlockFourBann {
-    margin-top: 158px;
+    margin-top: 160px;
     font-family: "MavenPro-Black"; 
     color: #fff;
     font-size: 62pt;
@@ -254,12 +285,12 @@ ul.horizListRight li {
 }
 
 .buttonLeftBlockFourBann {
-margin-top: 68px;
+margin-top: 70px;
 border: 2px solid #fff;
 font-family: "MavenPro-Bold";
 font-size: 13pt;
-border-radius: 6px;
-padding: 26px 49px;
+border-radius: 5px;
+padding: 25px 50px;
 
 }   
 
@@ -282,7 +313,7 @@ color: #fff;
 
 .firstLayer {
    margin-left: 130px;
-    margin-top: 93px;
+    margin-top: 95px;
     display: flex;
     z-index: 1;
 }
@@ -354,7 +385,7 @@ color: #fff;
 }
 
 .fifthBanner {
-    height: 542px;
+    height: 540px;
     background-image: url(img/Banner5.png);
 }
 
@@ -397,22 +428,22 @@ color: #fff;
 }
 
 .fullMassBlock {
-    margin-top: 57px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
 .comentsStack {
-    margin-top: 23px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0px 36px;
+    padding: 0px 35px;
 }
 
 .seventhBanner {
-    height: 542px;
+    height: 540px;
     background-image: url(img/Banner7.png);
 }
 
@@ -431,7 +462,7 @@ color: #fff;
 }
 
 .listEigthBann {
-    padding: 0px 106px;
+    padding: 0px 105px;
     margin-top: 125px;
     display: flex;
     flex-direction: column;
@@ -441,7 +472,7 @@ color: #fff;
 
 .blockLi {
     max-width: 470px;
-    margin-top: 24px;
+    margin-top: 25px;
     color: #fff;
     font-family: 'Maven Pro', sans-serif; 
 }
@@ -458,12 +489,12 @@ color: #fff;
 }
 
 #redButtonBotttom {
-    padding: 14px 19px;
-    margin-top: 36px; 
+    padding: 15px 20px;
+    margin-top: 35px; 
 }
 
 #headTxtBottom {
-    padding-top: 43px;
+    padding-top: 45px;
 }
 
 footer {
@@ -474,8 +505,8 @@ footer {
 }
 
 .footerLinksBlock {
-    padding-top: 83px;
-    margin-left: 101px;
+    padding-top: 85px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -501,7 +532,7 @@ footer {
     font-family: 'Maven Pro', sans-serif;
     font-size: 10pt;
     color: #a5abb0;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .footerInfoLinks {
@@ -512,15 +543,15 @@ footer {
 .columLinksBlock {
     display: flex;
     flex-direction: column;
-    margin-right: 43px;
-    margin-top: 84px;
+    margin-right: 45px;
+    margin-top: 85px;
 }
 
 .hederLinksBlock {
     font-size: 16pt;
     font-family: "MavenPro-Bold";
     color: #fff;
-    padding-bottom: 34px;
+    padding-bottom: 35px;
 }
 
 .infoLink a {
@@ -530,7 +561,7 @@ footer {
 }
 
 .infoLink {
-    padding-bottom: 11px;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 1435px) {
@@ -538,7 +569,7 @@ footer {
         justify-content: space-around;
     }
     .leftBlockFourBann{
-        padding-left: 13px;
+        padding-left: 15px;
     }
     
     .headLeftBlockFourBann {
@@ -630,7 +661,7 @@ footer {
        }
     .comentsStack {
         justify-content: space-around;
-        padding: 0px 36px;
+        padding: 0px 35px;
     }
     .sixthBanner {
         height: 950px;
@@ -641,8 +672,8 @@ footer {
     .buttonLeftBlockFourBann {
         margin-top: 68px;
         font-size: 13pt;
-        border-radius: 6px;
-        padding: 16px 20px;
+        border-radius: 5px;
+        padding: 15px 20px;
     }
     .listEigthBann {
         margin-top: 55px;
@@ -702,7 +733,7 @@ footer {
         display: none;
     }
     #imgHambMenu {
-        height: 33px;
+        height: 35px;
         width: 40px;
     }
     .footerInfoLinks {
@@ -794,7 +825,7 @@ footer {
     .buttonLeftBlockFourBann {
         margin-top: 15px;
         font-size: 11pt;
-        padding: 10px 14px;
+        padding: 10px 15px;
     }
     .fourthBanner {
         height: 830px;
@@ -821,7 +852,7 @@ footer {
     }
     .redButton {
         font-size: 11pt;
-        padding: 18px 28px;
+        padding: 20px 30px;
     }
 }
 
@@ -833,11 +864,11 @@ footer {
         margin-top: 20px
     }
     .fullMassBlock {
-        padding: 0px 24px;
+        padding: 0px 25px;
     }
 }
 
-@media(max-width: 595px){
+@media(max-width: 599px){
     .sixthBanner {
         height: 1750px;
     }
@@ -846,12 +877,6 @@ footer {
     }
     .blockLi {
         font-size: 10pt;
-    }
-    #imgHambMenu {
-        padding-right: 0px;
-    }
-    #logoImg {
-        width: 230px;
     }
     .eigthBanner {
         justify-content: center;
@@ -868,6 +893,12 @@ footer {
     }
     .secondBanner {
         height: 1330px;
+    }
+}
+
+@media(max-width: 385px) {
+    #logoImg {
+        width: 220px;
     }
 }
 @font-face {

@@ -27,7 +27,14 @@
                          <li id="rightListLi"><a href="#"><img id="imgHambMenu" src="img/hamurger-menu.png"></a>Menu</li>
                     </ul>
                 </div>
-                <div class="hambMenuRemove"><a href="#"><img id="imgHambMenu" src="img/hamurger-menu.png"></a></div>
+                <div class="hambMenuRemove"><img onclick="togFunc()" id="imgHambMenu" src="img/hamurger-menu.png">
+                    <div class="dropdown-child">
+                        <div id="liTogMenu"><a href="#">Sing Up</a></div>
+                        <div id="liTogMenu"><a href="#">Log In</a></div>
+                        <div id="liTogMenu"><a href="#">Help Center</a></div>
+                        <div id="liTogMenu"><a href="#">Call Us</a></div>
+                    </div>
+                </div>
             </div>
             <div class="conteinerForHeaderText">
                 <div class="headText">Znajdź  opiekuna</div>
@@ -344,6 +351,13 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+    'use strict';
+     let elem = document.querySelector('.dropdown-child');
     
+    function togFunc() {
+        elem.classList.toggle('dropdown-childOpened');
+    }
+    </script>
 </body>
 </html>
